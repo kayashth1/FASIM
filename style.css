@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+scroll-behavior: smooth;
+
+}
+
+/* header */
+
+.uppernav{
+    display: flex;
+    width: 100%;
+    height: 55px;
+    padding: 15px;
+    background-color: #dfe0e1;
+    color: whitesmoke;
+}
+.login img{
+    height: 28px;
+    border-radius: 40px;
+}
+.login{
+    position: relative;
+    /* float: right; */
+    left: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 12px; */
+}
+.login div{
+    padding-left: 18px;
+}
+.login button{
+    padding: 7px;
+    width: 80px;
+    /* border: 2px solid; */
+    border-radius: 12px;
+    background-color: transparent;
+    outline: none;
+}
+.search{
+    padding: 2px;
+    /* justify-content: center; */
+    text-align: center;
+    border: 2px;
+    border-radius: 3px;
+    outline: transparent;
+    
+}
+/* navigation */
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 74px;
+    background-color: #242323;
+}
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation ul li{
+   padding:30px; 
+   list-style: none;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 17px;
+    font-weight: bold;
+}
+#active:active{
+    color: white;
+}
+.navigation ul li a:hover{
+    
+    color: rgb(230, 190, 190);
+  
+}
+.logo img{
+    height: 66px;
+    border-radius:40px ;
+}
+.logo{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Home page */
+.home{
+    height: 80vh;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 20px; */
+}
+.home h1{
+    padding:  30px;
+    font-size: 51px;
+    font-weight:bold ;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home::after{
+    background: url('..//Fashion Website/Image/Home.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    /* top:0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    background-color: white;
+    opacity: .7;
+    align-items: center;
+    width: 550px;
+
+}
+.shop{
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    /* padding-bottom: 25px; */
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    transition: all 1.5s ease-out;
+}
+#shop{
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+ 
+}
+.shop:hover{
+    background-color: #ff0000;
+    color: #ffd4d4;
+    cursor: pointer;
+}
+/* New arrivals section  */
+.products{
+    height: auto;
+    background-color: rgb(178 191 203);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.scontainer{
+    display: flex;
+    
+}
+.item img{
+    width: 280px;
+}
+.item{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: all 1s;
+}
+.item:hover{
+    transform: scale(1.1);
+}
+.item button{
+    width: 280px;
+    height: 70px;
+    padding: 6px;
+    font-size: 17px;
+    background: #dad8d8;
+    border-radius: 6px;
+    border: none;
+    transition: all;
+    transition-duration: 1.5s;
+}
+.item button:hover{
+    background-color: rgb(223, 88, 115);
+    color: black;
+}
+.heading{
+    margin: 12px;
+    font-size: 22px;
+}
+/* Information and subscribe bar  */
+.info{
+    height: 40vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.list{
+
+    display: flex;
+    display: flex;
+    padding: 58px;
+    position: relative;
+    /* float: right; */
+    right: 150px;
+}
+.list ul{
+    padding: 20px;
+}
+.list ul li{
+    list-style: none;
+    padding: 5px;
+}
+.list ul li a{
+text-decoration: none;
+color: white;
+}
+.list ul li a:hover{
+
+color: rgb(233, 230, 230);
+}
+.subscribe{
+    position: relative;
+   left: 50px;
+   bottom: 20px;
+   text-align:center;
+}
+.subscribe h3{
+   font-size: 18px;
+   margin: 5px;
+   padding-bottom: 6px;
+}
+.subscribe input{
+    background: transparent;
+    width: 120px;
+    margin: 10px;
+    color: white;
+    font-size: 15px;
+}
+.subscribe button{
+    width: 110px;
+    padding: 12px;
+    border: none;
+    font-size: 15px;
+    background: #b08a8a;
+    color: black;
+    transition: all 1.5s;
+    cursor: pointer;
+}
+.subscribe button:hover{
+    background-color: white;
+    color: black;
+}
+/* footer  */
+footer{
+    background-color: rgb(97, 97, 97);
+    color: rgb(254, 254, 254);
+    height: 60px;
+    padding: 20px;
+   text-align: center;
+}
+/* hammburger */
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 2%;
+    display: none;
+}
+.line{
+    width: 33px;
+    background-color: rgb(0, 0, 0);
+    margin: 3px 3px;
+    height: 4px;
+}
+

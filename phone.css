@@ -1,0 +1,106 @@
+
+.navigation{
+    flex-direction: column;
+    height: 379px;
+    padding: 0;
+    margin: 0
+}
+.navigation ul{
+    flex-direction: column;
+}
+.navigation ul li{
+    padding: 16px;
+}
+.uppernav{
+    flex-direction: column;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+
+}
+.login{
+    display: flex;
+    left: 0;
+    justify-content: center;
+    margin: 7px 0;
+    flex-direction: column;;
+    
+}
+.searchbar{
+  display: grid;
+justify-items: center;
+  /* width: 40%; */
+}
+
+/* Hammburger nav bar  */
+.burger{
+display: block;
+
+}
+.vnav{
+    opacity: 0;
+}
+
+.n-height{
+    height: 142px;
+}
+
+.container{
+    width: auto;
+    flex-wrap: wrap;
+}
+.home h1{
+    text-align: center;
+}
+.scontainer{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item img {
+    width: 145px;
+}
+
+.item button{
+    width: 145px;
+}
+
+.info{
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    flex-direction: column
+}
+
+.list{
+        padding: 0;
+     position: static;
+     float: none
+}
+
+.subscribe{
+    width: auto;
+    left: 0;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin: 12px;
+    flex-wrap: wrap;
+}
+.subscribe button{
+    width: 136px;
+}
+.subscribe input{
+    width: 144px;
+}
+
+footer{
+    height: auto;
+}
+
